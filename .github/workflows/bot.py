@@ -1,5 +1,5 @@
 from pyrogram import *
-app = Client(name="bot", api_id="157804", api_hash="f972bf837a1d8bf83d51f15034ffbd9e")
+app = Client("bot", api_id="157804", api_hash="f972bf837a1d8bf83d51f15034ffbd9e")
 @app.on_message(filters.channel)
 def start (client,message):
     if message.chat.id==-1001480403747 :
